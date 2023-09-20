@@ -9,10 +9,46 @@
 
 
 /* HEADER */
-
+header {
+    background-color: #ff6900;
+}
 
 /* MAIN */
 
+/* Nav */
+.navbar {
+    height: 75px;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.categories {
+    min-width: 250px;
 
+}
+.categories a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo-boolean {
+    max-width: 25%;
+}
+
+.personal-area {
+    min-width: 250px;
+    text-align: right;
+}
+.personal-area i {
+    color: white;
+}
 /* FOOTER */
