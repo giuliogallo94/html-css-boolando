@@ -13,8 +13,6 @@ header {
     background-color: #ff6900;
 }
 
-/* MAIN */
-
 /* Nav */
 .navbar {
     height: 75px;
@@ -50,5 +48,83 @@ header {
 }
 .personal-area i {
     color: white;
+}
+
+/* MAIN */
+main {
+    padding-top: 3rem;
+}
+.catalogue {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.item {
+    position: relative;
+    width: calc(100% / 3);
+    height: 500px;
+    /* border: 1px solid black; */
+    margin-bottom: 5rem;
+}
+
+.item-1 {
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heart {
+    background-color: white;
+    padding: 0.3rem 0.5rem;
+    position: absolute;
+    top: 10px;
+    right: 0;
+
+}
+
+.info {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+}
+
+.info-extra {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0.2rem;
+    color: white;
+}
+
+.discount {
+    background-color: red;
+    margin-right: 5px;
+}
+
+.sustainable {
+    background-color: green;
+}
+
+.details {
+    position: absolute;
+    top: 100%;
+}
+
+.details p {
+    font-size: 12px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+.line-through {
+    text-decoration: line-through;
 }
 /* FOOTER */
