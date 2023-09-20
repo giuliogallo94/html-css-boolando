@@ -15,7 +15,7 @@ header {
 
 /* Nav */
 .navbar {
-    height: 75px;
+    height: 60px;
     width: 75%;
     margin: 0 auto;
     display: flex;
@@ -30,6 +30,7 @@ header {
 .categories a{
     text-decoration: none;
     color: white;
+    font-size: 17px;
     font-weight: bold;
     margin-right: 3px;
 }
@@ -39,7 +40,7 @@ header {
 }
 
 .logo-boolean {
-    max-width: 25%;
+    max-width: 20%;
 }
 
 .personal-area {
@@ -48,6 +49,7 @@ header {
 }
 .personal-area i {
     color: white;
+    font-size: 17px;
 }
 
 /* MAIN */
@@ -173,3 +175,41 @@ main {
 }
 
 /* FOOTER */
+footer {
+    background-color: #1a1a1a;
+    height: 75px;
+    border-bottom: 1px solid white;
+}
+
+.foot {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-info h5 {
+    color: white;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.find-us p, i {
+    color: white;
+}
+
+.find-us p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.find-us i {
+    font-size: 16px;
+    margin-right: 2px;
+}
